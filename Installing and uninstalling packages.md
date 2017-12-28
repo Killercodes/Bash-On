@@ -18,6 +18,10 @@ To update specific package type `apt-get install packageName`
 
 To search archive of package type `apt-cache search packageName`
 
+To resolve/fix a broken update use `apt-get uopdate --fix-missing`
+
+To automatically removed the dependent module not required by the system use `apt autoremove`
+
 
 
 
