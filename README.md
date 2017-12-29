@@ -28,11 +28,37 @@ You won't normally log into the computer as `root`, but you can use the `sudo` c
 
 You can also run a superuser shell by using `sudo su`. When running commands as a superuser there's nothing to protect against mistakes that could damage the system. It's recommended that you only run commands as the superuser when required, and to exit a superuser shell when it's no longer needed.
 
-One can also use `sudo -s` to get a super shell and quit by typing `exit`
+One can also use `sudo -s` to get a super shell and quit by typing `exit` or by `sudo su -` the `su` will enable you to impersonate the other users in the system with `sudo su user1` when you are `user2`
 
 ### Who can use sudo?
 
 It would defeat the point of the security if anyone could just put sudo in front of their commands, so only approved users can use sudo to gain administrator privileges. The pi user is included in the `sudoers` file of approved users. To allow other users to act as a superuser you can add the user to the sudo group with `usermod`, edit the `/etc/sudoers` file, or add them using `visudo`.
+
+## Session management
+
+### Impersonate with `su`
+
+The `su` stands forshort for **substitute user** makes it possible to change a login session's owner without logging-out from the current session with `su userName`. typing `su` will change the session to `root` but it will ask for password, if you don't have password for `root` use `su root` or simply `su -` to have the root sesson.
+
+### Now `whoami`
+
+Changing sesson will be a bit confusing sometime althogh it is reflected back in prompt but you can make sure with `whoami` which return the current user who executes it
+
+### Know who is there with `w`
+
+The `w` commands shows who is logged in to the system and what they are doing.
+
+
+## Process mgmt
+
+### Show he currently running process with `pstree`
+
+The `pstree` displays the processes (i.e., executing instances of programs) on the system in the form of a tree diagram. 
+
+### Get the process status with `ps`
+
+The `ps` command is used to provide information about the currently running processes, including their process identification numbers (PIDs). it comes with handful of options like `ps all` will show process info but there is also `htop` which is highly interactive application to search filter and kill processes running in the system
+
 
 ## FileSystem
 [Read about commands to manipulate files and directories here](https://github.com/Killercodes/Bash-On/blob/master/Directory%20and%20Files.md)
