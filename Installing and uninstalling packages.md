@@ -12,7 +12,7 @@ To uninstall a package use `apt-get remove packageName` and to completely remove
 
 To get update all the packages installed type `apt-get update` or `apt update` for a full try `apt full-upgrade`
 
-To install the update type `apt-get upgrade` or `apt update`
+To install the update type `apt-get upgrade` or `apt update` you can also use `rpi-update` to upgrade the firmware for your Raspberry Pi.
 
 To update specific package type `apt-get install packageName`
 
