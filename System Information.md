@@ -17,6 +17,6 @@ Command|Description
 `id`| Shows the active user id with login & group
 `last`| Shows listing of last logged in users
 `who`| Shows who is logged into the system
-`ps`| Shows the current active process with the user, `ps aux` you can see all the process and filter it with grep as `ps aux|grep 'bash'` will show all the process with **bash**
-`
+`ps`| Shows the current active process with the user, `ps aux` you can see all the process and filter it with grep as `ps aux grep "bash"` will show all the process with **bash**
+
 
