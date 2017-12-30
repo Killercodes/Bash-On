@@ -1,3 +1,5 @@
+# Directories & Files
+
 ## Making a directory with `mkdir`
 To make a new directory use **mkdir** as
 `sudo mkdir directoryName`
