@@ -59,6 +59,8 @@ The `pstree` displays the processes (i.e., executing instances of programs) on t
 
 The `ps` command is used to provide information about the currently running processes, including their process identification numbers (PIDs). it comes with handful of options like `ps all` will show process info but there is also `htop` which is highly interactive application to search filter and kill processes running in the system
 
+## The `SSH` problem
+[Going headless you are blind until `ssh`, How to get black eyes](https://github.com/Killercodes/Bash-On/blob/master/SSH%20in%20headless%20Raspbian.md)
 
 ## FileSystem
 [Read about commands to manipulate files and directories here](https://github.com/Killercodes/Bash-On/blob/master/Directory%20and%20Files.md)
