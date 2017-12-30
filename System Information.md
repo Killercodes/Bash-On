@@ -18,5 +18,9 @@ Command|Description
 `last`| Shows listing of last logged in users
 `who`| Shows who is logged into the system
 `ps`| Shows the current active process with the user, `ps aux` you can see all the process and filter it with grep as `ps aux grep "bash"` will show all the process with **bash**
+`chmod 777 fileName`| Sets the **rwx** permission for owner, gotup, world 
+`chmod 755 fileName`|Sets the **rwx** permission for owner, rx for group and world
+`chmod owner-user file`| Chnage the owner of the file
+`
 
 
