@@ -12,6 +12,7 @@ Like
 ``` bash
 #!/bin/bash
 # My first shell script, this is a comment
+# filename:helloworld
 
 clear # command to clear the the screen
 
@@ -23,6 +24,18 @@ line 1
 line 2
 line 3
 END
+```
+
+## I wrote the script but not able to execute it
+
+That's because you don't have premissions to execute it, after writing shell script one need to set execute permission for your script.
+You may read about `chmod` in the previous sections.
+``` bash
+chmod +x helloworld
+#or
+chmod 755 helloworld
+or
+chmod 777 helloworld
 ```
 
 ## what is #!/bin/bash
