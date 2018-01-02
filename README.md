@@ -1,6 +1,9 @@
 # Bash-On Debian/Raspbian
 Hand full of bash &amp; linux commands
 
+## What is `bash` ?
+Bash is a kind of shell, a user program or it’s environment provided for user interaction.It's an command language interpreter that executes commands read from the standard input device or from a file. On Linux, bash is the standard shell for common users and It is the standard GNU shell, intuitive and flexible. 
+
 
 ## Heard about `bash` but what is `.bashrc` ? 
 
