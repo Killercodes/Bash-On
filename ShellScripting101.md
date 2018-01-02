@@ -72,7 +72,17 @@ $y=             #NULL variable
 You can pass the the parameter in the command line argument or can read it from the standard input 
 
 ### Passing command line arguments
-*someting missing here*
+The `$` is used to hold the command line arguments passed to it jist like in dos it was `%`. So the first argument will be given the placeholder `$1` and the second will get `$0` and it goes so on. As per limitation it goes from 0-9 that means you can pass 9 parameters to your script as `$1...$9` where the first parameter `$0` will always refers to the script file itself. 
+`$*` or `$@` can also be used to concartinate all the parameters passed to it and `$#` will have the count of parameters passed to the script.
+
+``` bash
+#!/bin/bash
+echo "Argument Count $#"
+echo "$0 is script name"
+echo "$1  - 1st arg"
+echo "$2  - 2nd argument"
+echo "All args -  $* or $@"
+```
 
 ### Reading from the Standard input 
 You can use the `read` to read a line from standard input and use it as a variable once the script runs as
