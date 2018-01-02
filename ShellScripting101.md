@@ -37,6 +37,22 @@ line 3
 END
 ```
 
+## Where are comments
+Comments are descriptive non executable lines written to understand/define the operation, the below example explains it well
+``` bash
+#!/bin/bash
+# This line is a comment.
+echo "A comment will follow this line" # Comment here.
+echo "This # is not a comment."
+echo 'This # is not a comment.'
+echo This \# also is not a comment.
+echo This ia a  # proper comment.
+ 
+echo ${PATH#*:}       # Parameter substitution is not a comment, it will print the whole path
+echo $(( 2#111011 ))  # Binary conversion is not a comment, it will convert binary to decimal
+```
+
+
 ## I wrote the script but not able to execute it
 
 That's because you don't have premissions to execute it, after writing shell script one need to set execute permission for your script.
@@ -109,7 +125,6 @@ echo "Hello $myname, you are awesome."
 Here the variable `myname` is defined as a placeholder and once the script runs it prints the message and waits for the keyboard input after that it uses `$` to display the name as `$myname`
 
 
-
 ## How to redirect the output to a file or something
 It follows the same rule of the dos commands 
 Command | Description
@@ -131,6 +146,26 @@ ls -la >> flist
 echo "cat < flist will input all the text in the file flist into the cat command "
 cat < flist
 ```
+
+## Conditional branching with if-fi
+> coming soon
+### if fi
+> coming soon
+### if..else..fi
+> coming soon
+### if..elif..else..fi
+> coming soon
+
+## Loops
+### for loops
+
+### while loops
+
+## case
+
+## functions
+
+
 
 
 
