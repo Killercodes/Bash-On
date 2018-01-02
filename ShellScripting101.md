@@ -37,6 +37,7 @@ chmod 755 helloworld
 or
 chmod 777 helloworld
 ```
+to execute it type `./helloworld`
 
 ## what is #!/bin/bash
 Linux comes with different kinds of shells as 
@@ -49,7 +50,7 @@ Linux comes with different kinds of shells as
 ... [ToDo] someting more here
 
 ## How can i define variable 
-Variables can be defiend without a keyword, atlhough it must start from letters and are case sensetive as follows
+Variables can be defined without a keyword, atlhough it must start from letters and are case sensetive as follows
 Do make sure that there should be no spaces between the variable and the value 
 ``` bash
 #!/bin/bash
@@ -67,6 +68,25 @@ x=10            #NOT x = 10 no spaces
 X=20            #variables are case sensitive
 $y=             #NULL variable
 ```
+## How to pass parameter to the shell
+You can pass the the parameter in the command line argument or can read it from the standard input 
+
+### Passing command line arguments
+*someting missing here*
+
+### Reading from the Standard input 
+You can use the `read` to read a line from standard input and use it as a variable once the script runs as
+``` bash
+#!/bin/bash
+# read name from standard input after the script execution 
+
+echo "Please type your Name: "
+read myname
+echo "Hello $myname, you are awesome."
+```
+Here the variable `myname` is defined as a placeholder and once the script runs it prints the message and waits for the keyboard input after that it uses `$` to display the name as `$myname`
+
+
 
 ## How to redirect the output to a file or something
 It follows the same rule of the dos commands 
