@@ -3,7 +3,18 @@ Shell is a user program or it’s environment provided for user interaction.It's
 
 # What is Shell scripting ?
 
-Shell script is a script like *dos's bat file* that executes series of commands when the file is executed in the shell.
+Shell script is a script like *dos's bat file* that executes series of commands when the file is executed in the shell. 
+It comes with a set of build-in variables to act as a placeholder during script execution
+
+Shell Built in Variables	| Define
+----|----
+`$#`|	Number of command line arguments.
+`$?`|	Exit Status
+`$*`|	string that contains all arguments to shell
+`$@`|	Same as above, except when quoted.
+`$-`|	Option supplied to shell
+`$$`|	PID of shell
+`$!`|	PID of last started background process (started with &)
 
 ## How to write 
 
@@ -83,6 +94,7 @@ echo "$1  - 1st arg"
 echo "$2  - 2nd argument"
 echo "All args -  $* or $@"
 ```
+Refer to the list of build in variables for more info.
 
 ### Reading from the Standard input 
 You can use the `read` to read a line from standard input and use it as a variable once the script runs as
