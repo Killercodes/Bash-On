@@ -91,3 +91,8 @@ If you are missing the windows task manager that shows all the running taskas so
 
 [Read how to install & uninstall packages in raspbian](https://github.com/Killercodes/Bash-On/blob/master/Installing%20and%20uninstalling%20packages.md)
 
+## Shell Scripting 101
+*Now i know everyting tell me how to begin*
+
+[How to start Shell Scripting with bash](https://github.com/Killercodes/Bash-On/blob/master/ShellScripting101.md)
+
