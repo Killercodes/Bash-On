@@ -6,7 +6,19 @@ To make a new directory use **mkdir** as
 
 ## Changing directory with `cd`
 To change a directory use the **cd** command as 
-`cd ./directoryName` to go to a inner directory and to move to a parent directory use `cd /directory` like `cd /Home` to go Home or `cd /` to move to the previous one
+`cd ./directoryName` to go to a inner directory and to move to a parent directory use `cd /directory` like `cd /Home` to go Home or `cd /` to move to the previous one. See the below table for more info
+
+|Command | What it does
+----|----
+`cd dirNm`|Go to directory
+`cd` or `cd ~`|Go to $HOME directory
+`cd ..`|Go up a directory
+`cd -`|Go to previous directory
+`pwd`|Where am I - show current directory
+`ls`|List contents of directory
+`ls -alh`|What's here - list all files and folders
+`mkdir dir_name`|Make a directory
+`sudo rm -r dir_name`|Delete a directory and any files it contains
 
 ## List the contents of directory with `ls`
 To list the contents use `ls ./directory` you can also do `ls ./directory1/directory2` to list the contents of a child directory
@@ -20,9 +32,16 @@ the file is in current directory. To save a file press `Ctrl+O` and to exit nano
 ## Move/Rename file/folder with `mv`
 Use the **MV** command to move a file or directory as `sudo mv <currentPath/filename> <newPath/filename>` Make sure the file/directory name is same else the  **mv** command will rename the file/directory. 
 
+Command| What it does
+----|----
+`rm somefilename.*`|Remove file or files
+`mv {old-dir-name} {new-dir-name}`|Move or rename file
+`cp existing_file.txt new_file.txt`|Copy file
+`wget http://downloads.somedomain.com/...`|Download file
+
 # Linux Directory Structure
 
-|Directory   |DEscription
+|Directory   |Description
 ----|----
 `/`          |Primary hierarchy root and root directory of the entire file system hierarchy.
 `/bin` |Essential command binaries that need to be available in single user mode; for all users, e.g., cat, ls, cp.
