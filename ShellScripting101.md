@@ -150,11 +150,161 @@ cat < flist
 ## Conditional branching with if-fi
 > coming soon
 ### if fi
-> coming soon
+> Mathematical Operators
+``` bash
+#!/bin/bash
+ 
+if test $1 -gt 0
+then
+        echo "$1 > 0"
+fi
+ 
+if test $1 -ge 0
+then
+        echo "$1 >= 0"
+fi
+ 
+if test $1 -eq 0
+then
+        echo "$1 == 0"
+fi
+ 
+if test $1 -ne 0
+then
+        echo "$1 != 0"
+fi
+ 
+if test $1 -lt 0
+then
+        echo "$1 < 0"
+fi
+ 
+if test $1 -le 0
+then
+        echo "$1 <= 0"
+fi
+```
+> Logical Operators
+``` bash
+if test $1 -lt 0
+then
+        echo "$1 < 0"
+fi
+ 
+if test $1 -le 0
+then
+        echo "$1 <= 0"
+fi
+```
+
+> String Operators
+``` bash
+string_null=""
+string1="string1"
+ 
+if [ $string_null -n ]
+then
+        echo "not null string"
+else
+        echo "null string"
+fi
+ 
+if [ $string_null -z ]
+then
+        echo "null string"
+else
+        echo "not null string"
+fi
+ 
+if [ "$string_null" == "$string1" ]
+then
+        echo "strings equal"
+else
+        echo "strings not equal"
+fi
+ 
+if [ "$string_null" != "$string1" ]
+then
+        echo "strings not equal"
+else
+        echo "strings equal"
+fi
+```
+
+> Test for files and directories
+``` bash
+#!/bin/bash
+ 
+if test -s $1
+then
+        echo "$1 not empty file"
+fi
+ 
+if test -f $1
+then
+        echo "$1 normal file. Not a directory"
+fi
+if test -e $1
+then 
+    echo "$1 exists"
+fi 
+ 
+if test -d $1
+then
+        echo "$1 is directory and not a file"
+fi
+ 
+if test -r $1
+then
+        echo "$1 is read-only file"
+fi
+ 
+if test -x $1
+then
+        echo "$1 is executable"
+fi
+```
+
+
 ### if..else..fi
-> coming soon
+> If given condition is true then command1 is executed otherwise command2 is executed.
+``` bash
+#!/bin/sh
+#
+# Script to see whether argument is positive or negative
+#
+if [ $# -eq 0 ]
+then
+echo "$0 : You must give/supply one integers"
+exit 1
+fi
+ 
+if test $1 -gt 0
+then
+echo "$1 number is positive"
+else
+echo "$1 number is negative"
+fi
+```
 ### if..elif..else..fi
-> coming soon
+> Multilevel if-then-else
+``` bash
+#
+#!/bin/sh
+# Script to test if..elif...else
+#
+if [ $1 -gt 0 ]; then
+  echo "$1 is positive"
+elif [ $1 -lt 0 ]
+then
+  echo "$1 is negative"
+elif [ $1 -eq 0 ]
+then
+  echo "$1 is zero"
+else
+  echo "Opps! $1 is not number, give number"
+fi
+```
 
 ## Loops
 ### for loops
