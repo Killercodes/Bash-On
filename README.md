@@ -81,6 +81,9 @@ If you are missing the windows task manager that shows all the running taskas so
 
 [How to enable `ssh` when the official way fails](https://github.com/Killercodes/Bash-On/blob/master/SSH%20in%20headless%20Raspbian.md)
 
+[With Theme](https://killercodes.github.io/Bash-On//SSH%20in%20headless%20Raspbian.md)
+
+
 ## FileSystem
 *Where are  my files & docs*
 
