@@ -86,3 +86,19 @@ Command| What it does
 `/var/spool`|Spool for tasks waiting to be processed, e.g., print queues and outgoing mail queue.
 `/var/spool/mail`|Deprecated location for users' mailboxes.[12]
 `/var/tmp`|Temporary files to be preserved between reboots.
+
+## Backup & Restore with `dd`
+
+### To backup a drive as img file
+```bash
+sudo dd if=/dev/sda of=backup.img bs=1M
+```
+
+### To restore img file to drive
+```bash
+sudo dd bs=4M if=backup.img of=/dev/mmcblk0
+```
+if `pv` is installed you may use
+```bash
+dd bs=4M if=backup.img | pv | dd of=/dev/sda
+```
