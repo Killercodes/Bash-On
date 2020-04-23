@@ -36,5 +36,27 @@ DOS Command	|UNIX Equivalent	|Effect
 So if you are moving from DOS to Linuz the following enteries in `.bashrc` will help you a lo
 
 ``` bash
-
+alias ASSIGN='ln'	#link file or directory
+alias ATTRIB='chmod'	#change file permissions
+alias CHDIR='cd'	#change directory
+alias CLS='clear'	#clear screen
+alias COMP='diff'
+alias comp3='cmp'	#file compare
+alias COPY='cp'	#file copy
+alias DEL='rm'	#delete file(s)
+alias DELTREE='rm -rf'	#delete directory recursively
+alias DIR='ls -l'	#directory listing
+alias ERASE='rm'	#delete file(s)
+alias FC='comm' # cmp	file compare
+alias FIND='grep'	find strings in files
+alias MD='mkdir'	#make directory
+alias MOVE='mv'	#move
+alias PATH='$PATH'	#path to executables
+alias REN='mv'	#rename (move)
+alias RENAME='mv'	#rename (move)
+alias RD='rmdir'	#remove directory
+alias SORT='sort'	#sort file
+alias TIME='date'	#display system time
+alias TYPE='cat'	#output file to stdout
+alias XCOPY='cp'	#(extended) file copy
 ```
