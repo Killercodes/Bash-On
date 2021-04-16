@@ -84,13 +84,13 @@ If you are missing the windows task manager that shows all the running taskas so
 # Shell Scripting 101
 *Now i know everyting tell me how to begin*
 
-[How to start Shell Scripting with bash](/Bash-On/ShellScripting101.md)
+[How to start Shell Scripting with bash](/ShellScripting101.md)
 
 # DOS commands and their UNIX equivalents
-[DOS commands and their UNIX equivalents](/Bash-On/DOS-commands-and-their-UNIX-equivalents.md)
+[DOS commands and their UNIX equivalents](/DOS%20commandsand%20their%20UNIX%20equivalents.md)
 
 # System Information
-[System Information](/System-Information.md)
+[System Information](/System%20Information.md)
 
 # Termux
-[Termux CLI](/Termux-CLI.md)
+[Termux CLI](/Termux%20CLI.md)
