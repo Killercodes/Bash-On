@@ -1,4 +1,4 @@
-# Bash-On Debian/Raspbian
+# Bash-On /Index
 Hand full of bash &amp; linux commands
 
 ## What is `bash` ?
@@ -76,32 +76,21 @@ The `ps` command is used to provide information about the currently running proc
 If you are missing the windows task manager that shows all the running taskas so that you can kill them ;) type `htop` by pressing `f4` you can filter the running process and even kill them.
 
 
-## The `SSH` problem
+# Raspbian.md
 *Going headless you are blind until `ssh`, How about a nifty surgery*  
 
-[How to enable `ssh` when the official way fails](/SSH-in-headless-Raspbian.md)
+[Raspbian Documentation](/Raspbian.md)
 
-
-## FileSystem
-*Where are  my files & docs*
-
-[Read about commands to manipulate files and directories here](/Directory-and-Files.md)
-
-## Install & Uninstall packages
-*I can't live without free software and i don't see them*
-
-[Read how to install & uninstall packages in raspbian](/installing-and-uninstalling-packages.md)
-
-## Shell Scripting 101
+# Shell Scripting 101
 *Now i know everyting tell me how to begin*
 
 [How to start Shell Scripting with bash](/shellscripting101.md)
 
-
-## DOS commands and their UNIX equivalents
+# DOS commands and their UNIX equivalents
 [DOS commands and their UNIX equivalents](/dos-commands-and-their-unix-equivalents.md)
 
-## System Information
+# System Information
 [System Information](/system-information.md)
 
-
+# Termux
+[Termux CLI](/Termux-CLI.md)
