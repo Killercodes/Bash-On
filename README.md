@@ -79,23 +79,29 @@ If you are missing the windows task manager that shows all the running taskas so
 ## The `SSH` problem
 *Going headless you are blind until `ssh`, How about a nifty surgery*  
 
-[How to enable `ssh` when the official way fails](https://github.com/Killercodes/Bash-On/blob/master/SSH%20in%20headless%20Raspbian.md)
-
-[With Theme](https://killercodes.github.io/Bash-On//SSH%20in%20headless%20Raspbian.md)
+[How to enable `ssh` when the official way fails](/SSH-in-headless-Raspbian.md)
 
 
 ## FileSystem
 *Where are  my files & docs*
 
-[Read about commands to manipulate files and directories here](https://github.com/Killercodes/Bash-On/blob/master/Directory%20and%20Files.md)
+[Read about commands to manipulate files and directories here](/Directory-and-Files.md)
 
 ## Install & Uninstall packages
 *I can't live without free software and i don't see them*
 
-[Read how to install & uninstall packages in raspbian](https://github.com/Killercodes/Bash-On/blob/master/Installing%20and%20uninstalling%20packages.md)
+[Read how to install & uninstall packages in raspbian](/installing-and-uninstalling-packages.md)
 
 ## Shell Scripting 101
 *Now i know everyting tell me how to begin*
 
-[How to start Shell Scripting with bash](https://github.com/Killercodes/Bash-On/blob/master/ShellScripting101.md)
+[How to start Shell Scripting with bash](/shellscripting101.md)
+
+
+## DOS commands and their UNIX equivalents
+[DOS commands and their UNIX equivalents](/dos-commands-and-their-unix-equivalents.md)
+
+## System Information
+[System Information](/system-information.md)
+
 
