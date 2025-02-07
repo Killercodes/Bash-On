@@ -75,22 +75,30 @@ The `ps` command is used to provide information about the currently running proc
 
 If you are missing the windows task manager that shows all the running taskas so that you can kill them ;) type `htop` by pressing `f4` you can filter the running process and even kill them.
 
+# Bash 101
+[How to start Shell Scripting with bash](/bash-101.md)
+
+# Directory & Files
+[Directory & Files](/Directory%20and%20Files)
+
+# DOS commands and their UNIX equivalents
+[DOS commands and their UNIX equivalents](/DOS%20commands%20and%20their%20UNIX%20equivalents)
+
+# Shell Scripting 101
+*Now i know everyting tell me how to begin*
+[How to start Shell Scripting with bash](/ShellScripting101.md)
 
 # Raspbian.md
 *Going headless you are blind until `ssh`, How about a nifty surgery*  
 
-[Raspbian Documentation](/Raspbian.md)
+[Raspbian Documentation](/Raspbian)
 
-# Shell Scripting 101
-*Now i know everyting tell me how to begin*
 
-[How to start Shell Scripting with bash](/ShellScripting101.md)
 
-# DOS commands and their UNIX equivalents
-[DOS commands and their UNIX equivalents](/DOS%20commandsand%20their%20UNIX%20equivalents.md)
+
 
 # System Information
-[System Information](/System%20Information.md)
+[System Information](/System%20Information)
 
 # Termux
-[Termux CLI](/Termux%20CLI.md)
+[Termux CLI](/termux)
